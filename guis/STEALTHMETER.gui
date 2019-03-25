@@ -1,0 +1,93 @@
+windowDef Desktop
+{
+	rect	0,0,640,480
+	visible	1
+	noevents	1
+	nocursor	1
+	windowDef test
+	{
+		rect	-3,1,641,97
+		text	"Find the Treasure (nailgun) to finish the level"
+		textalign	1
+		textscale	.5
+		font	"fonts/english"
+		visible	1
+	}
+//-----------------------------------------------------------------------------
+// Standard indications: ammo, armor, health
+//-----------------------------------------------------------------------------
+
+   windowDef bar_health {
+      rect   110,420,60,49
+      visible   1
+      forecolor   1,1,1,1
+      text   "gui::player_health"
+      textscale   0.6
+      textalign   2
+      font   "fonts/english"
+   }
+   windowDef bar_health_percent {
+      rect   170,420,40,49
+      visible   1
+      forecolor   1,1,1,1
+      text   "%"
+      textscale   0.6
+      textalign   0
+      font   "fonts/english"
+   }
+
+   windowDef gun_2 {
+      rect   218, 416, 40, 40
+      visible   1
+      forecolor   1,1,0,1
+      text   "2"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+   windowDef gun_3 {
+      rect   242, 416, 40, 40
+      visible   1
+      forecolor   1,1,1,0.4
+      text   "3"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+   windowDef gun_4 {
+      rect   266, 416, 40, 40
+      visible   1
+      forecolor   1,1,1,0.4
+      text   "4"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+   windowDef gun_5 {
+      rect   218, 436, 40, 40
+      visible   1
+      forecolor   1,1,1,0.4
+      text   "5"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+   windowDef gun_6 {
+      rect   242, 436, 40, 40
+      visible   1
+      forecolor   1,1,1,0.4
+      text   "6"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+   windowDef gun_7 {
+      rect   266, 436, 40, 40
+      visible   1
+      forecolor   1,1,1,0.4
+      text   "7"
+      textscale   0.25
+      font   "fonts/micro"
+   }
+
+}
